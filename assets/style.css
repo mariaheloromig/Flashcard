@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color:black;
     font-family: Bai Jamjuree;
 }
 
@@ -15,6 +15,11 @@ body{
     flex-basis: calc(33% - 6rem);
 }
 
+.cartao__conteudo{
+    text-align: center;
+    background-color: rgb(117, 221, 187);
+    height: 100%;
+}
 
 
 
@@ -23,8 +28,8 @@ body{
 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: aquamarine;
+    color:black;
     position: fixed;
     bottom: 0;
     width: 100%;
