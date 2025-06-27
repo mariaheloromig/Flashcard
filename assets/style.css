@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background: url(img/aesthetic-background-with-gradient-neon-led-light-effect_53876-103792.avif);
     font-family: Bai Jamjuree;
 }
 
@@ -19,6 +19,17 @@ body{
     text-align: center;
     background-color: rgb(117, 221, 187);
     height: 100%;
+}
+
+.cartao__conteudo h3 {
+    background-color:rgb(120, 120, 238);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+
 }
 
 
