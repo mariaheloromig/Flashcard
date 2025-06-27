@@ -32,12 +32,19 @@ body{
     font-size: 1vw;
 }
 
-.cartao__conteudo__pergunta {
-    color: white;
+.cartao__conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
 }
 
-.cartao__conteudo__resposta {
-    color: blueviolet;
+.cartao__conteudo__pergunta p {
+    color: white;
+    font-weight: 500;
+}
+
+.cartao__conteudo__resposta p {
+    color: rgb(64, 10, 116);
+    font-weight: 700;
 }
 
 
