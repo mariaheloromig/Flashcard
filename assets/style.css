@@ -1,5 +1,5 @@
 body{
-    background: url(img/aesthetic-background-with-gradient-neon-led-light-effect_53876-103792.avif);
+    background: url(img/aura.wallpaper.jpg);
     font-family: Bai Jamjuree;
 }
 
@@ -39,8 +39,8 @@ body{
 
 
 footer{
-    background-color: aquamarine;
-    color:black;
+    background-color: black;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
