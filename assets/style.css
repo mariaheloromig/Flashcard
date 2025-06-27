@@ -38,6 +38,7 @@ body {
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: 4rem;
 }
 
 .cartao__conteudo__pergunta p {
@@ -46,7 +47,7 @@ body {
 }
 
 .cartao__conteudo__resposta p {
-    color: rgb(64, 10, 116);
+    color:white;
     font-weight: 700;
 }
 
@@ -57,15 +58,29 @@ body {
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgb(116, 71, 201);
+    color:white;
     position: fixed;
     bottom: 0;
     width: 100%;
