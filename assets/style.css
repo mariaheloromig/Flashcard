@@ -9,13 +9,13 @@ body{
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(186, 247, 227);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo{
+    background-color:rgb(120, 120, 238);
     text-align: center;
     /*background-color: rgb(117, 221, 187);*/
     height: 100%;
@@ -23,15 +23,22 @@ body{
 
 .cartao__conteudo h3 {
     background-color:rgb(120, 120, 238);
+    border: 1px solid white;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
-
 }
 
+.cartao__conteudo__pergunta {
+    color: white;
+}
+
+.cartao__conteudo__resposta {
+    color: blueviolet;
+}
 
 
 
